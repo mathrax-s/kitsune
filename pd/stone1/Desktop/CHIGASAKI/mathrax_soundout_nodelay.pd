@@ -1,0 +1,9 @@
+#N canvas 4 29 770 606 10;
+#X obj 175 151 lop~ 16000;
+#X obj 41 21 inlet~;
+#X obj 167 271 dac~;
+#X obj 178 179 hip~ 5;
+#X connect 0 0 3 0;
+#X connect 1 0 0 0;
+#X connect 3 0 2 0;
+#X connect 3 0 2 1;
